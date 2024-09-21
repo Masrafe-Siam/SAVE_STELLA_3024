@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plant Type Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+    <h2>Soil Temperature (°C)</h2>
+    <input class="temperature" type="text" id="uiSoilTemperature" class="floatLabel" name="SoilTemperature" value="20">
+    
+    <h2>Soil pH</h2>
+    <input class="ph" type="text" id="uiSoilPH" class="floatLabel" name="SoilPH" value="6.5">
+</form>
+
+<form class="form">
+    <button class="submit" onclick="onClickedPredictPlantType()" type="button">Predict Plant Type</button>
+    <div id="uiPredictedPlantType" class="result">
+        <h2></h2>
+    </div>
+</form>
+</body>
+</html>
