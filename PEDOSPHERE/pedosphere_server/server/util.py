@@ -14,19 +14,19 @@ def get_predicted_plant_type(soil_temp, soil_ph):
 
     # Prepare the input for the model
     x = np.array([soil_temp, soil_ph]).reshape(1, -1)
-    return __model.predict(x)[0]
+    return __model.predict(x)[0]  # Fixed to predict properly
 
 
 def load_saved_artifacts():
     print("Loading saved artifacts... start")
     global __data_columns
-    global __model
 
     with open('./artifacts/columns.json', 'r') as f:
         __data_columns = json.load(f)['data_columns']
-
-    with open('./artifacts/atmosphere_model.pickle', 'rb') as f:
-        __model = pickle.load(f)
+    global __model
+    if __model is None:
+        with open('./artifacts/atmosphere_model.pickle', 'rb') as f:
+            __model = pickle.load(f)
     print("Loading saved artifacts... done")
 
 

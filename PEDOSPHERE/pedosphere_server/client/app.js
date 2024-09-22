@@ -4,11 +4,11 @@ function onClickedPredictPlantType() {
     var soilPH = document.getElementById("uiSoilPH");
     var predictedPlantType = document.getElementById("uiPredictedPlantType");
 
-    var url = "http://127.0.0.1:5000/predict_plant_type"; // Change this to your Flask server's endpoint for plant type prediction
+    var url = "http://127.0.0.1:5000/predict_plant_type"; // Ensure Flask server is running
 
     $.post(url, {
-        soil_temperature: parseFloat(soilTemp.value),
-        soil_ph: parseFloat(soilPH.value)
+        soil_temp: parseFloat(soilTemp.value),  // Corrected key
+        soil_ph: parseFloat(soilPH.value)       // Corrected key
     },function(data, status) {
         console.log(data.predicted_plant_type);
         predictedPlantType.innerHTML = "<h2>" + data.predicted_plant_type + "</h2>";
