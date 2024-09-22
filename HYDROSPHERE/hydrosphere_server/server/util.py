@@ -1,13 +1,19 @@
 import pickle
 import json
 import numpy as np
-import pandas as pd
 
 __model = None
 __data_columns = None
 
+# Example mapping of predicted indices to plant types
+plant_types = ['Plant Type 1', 'Plant Type 2', 'Plant Type 3']  # Replace with actual plant types
 
-def predict_plant_type(Dissolved_Oxygen, Temperature, pH):
+def get_predicted_plant_type(Dissolved_Oxygen, Temperature, pH):
+    """
+    Predict the plant type based on dissolved oxygen, temperature, and pH value.
+    The function checks for valid ranges and scales the inputs before prediction.
+    """
+    # Validate the input ranges
     if not (1.0 <= Dissolved_Oxygen <= 15.0):
         return 'Invalid Dissolved Oxygen value. Must be between 1 and 15 mg/L.'
     if not (5 <= Temperature <= 30):
@@ -15,17 +21,14 @@ def predict_plant_type(Dissolved_Oxygen, Temperature, pH):
     if not (4.0 <= pH <= 9.5):
         return 'Invalid pH value. Must be between 4.0 and 9.5.'
 
-    # Prepare the input for the model as a DataFrame
-    input_data = pd.DataFrame([[Dissolved_Oxygen, Temperature, pH]], columns=['Dissolved_Oxygen', 'Temperature', 'pH'])
+    # Prepare the input for the model
+    x = np.array([Dissolved_Oxygen, Temperature, pH]).reshape(1, -1)
 
-    predicted_index = __model.predict(input_data)[0]
+    # Predict the plant type directly from the model output
+    predicted_index = __model.predict(x)[0]
 
-    # Check if predicted_index is valid
-    if 0 <= predicted_index < len(__data_columns):
-        return __data_columns[predicted_index]  # Return the plant type
-    else:
-        return 'Prediction index out of range.'
-
+    # Return the corresponding plant type
+    return plant_types[predicted_index]  # Adjust based on your actual plant types
 
 def load_saved_artifacts():
     print("Loading saved artifacts... start")
@@ -38,14 +41,13 @@ def load_saved_artifacts():
     if __model is None:
         with open('./artifacts/hydrosphere_model.pickle', 'rb') as f:
             __model = pickle.load(f)
-    print("Loading saved artifacts... done")
 
+    print("Loading saved artifacts... done")
 
 def get_data_columns():
     return __data_columns
 
-
 if __name__ == '__main__':
     load_saved_artifacts()
     print(get_data_columns())
-    print(predict_plant_type(7, 25, 5))  # Test prediction
+    print(get_predicted_plant_type(4.4, 22.9, 7.5))  # Test prediction

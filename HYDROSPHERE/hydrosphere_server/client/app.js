@@ -9,13 +9,18 @@ function onClickedPredictPlantType() {
     var url = "http://127.0.0.1:5000/predict_plant_type"; // Flask server URL
 
     $.post(url, {
-        dissolved_oxygen: parseFloat(dissolvedOxygen.value),
-        temperature: parseFloat(waterTemp.value),
-        ph: parseFloat(waterPH.value)
-    },function(data, status) {
-        console.log(data.predicted_plant_type);
-        predictedPlantType.innerHTML = "<h2>" + data.predicted_plant_type + "</h2>";
-        console.log(status);
+        Dissolved_Oxygen: parseFloat(dissolvedOxygen.value),
+        Temperature: parseFloat(waterTemp.value),
+        pH: parseFloat(waterPH.value)
+    })
+    .done(function(data) {
+        predictedPlantType.innerHTML = "<h2>Predicted Plant Type: " + data.predicted_plant_type + "</h2>";
+        console.log("Prediction successful:", data);
+    })
+    .fail(function(jqXHR) {
+        var errorMsg = jqXHR.responseJSON ? jqXHR.responseJSON.error : "An error occurred";
+        predictedPlantType.innerHTML = "<h2>Error: " + errorMsg + "</h2>";
+        console.log("Prediction failed:", errorMsg);
     });
 }
 
