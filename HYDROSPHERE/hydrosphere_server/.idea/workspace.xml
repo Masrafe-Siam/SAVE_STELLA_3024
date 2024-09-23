@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0474f63f-199e-4e06-a62f-94b5ee3a05ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/.idea/server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/client/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/client/app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/client/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/model/label_encoder.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/server/artifacts/label_encoder.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/server/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/3rd_try/server/server/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/.idea/hydrosphere_server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/client/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/client/app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/client/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/model/columns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/model/hydrosphere_model.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/model/model_RandomForestClassifier.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/server/artifacts/columns.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/server/artifacts/hydrosphere_model.pickle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/server/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../practice/hydrosphere_server/server/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/columns.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/dataadd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/dataadd222.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/datasets/GLOBEMeasurementData-21544.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/datasets/GLOBEMeasurementData-21544/GLOBEMeasurementData-21544.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/datasets/GLOBEMeasurementData-21545.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/datasets/ph.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/datasets/ph_soil_data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/datasets/ph_soil_data_with_plants.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/datasets/ph_water_data.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/model.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1st_try/ph_value_model.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/columns.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/columns_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/dataadd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/dataaddfinal.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/dataset/GLOBEMeasurementData-21546.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/dataset/GLOBEMeasurementData-21561.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/dataset/pedoshere_dataset_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/dataset/pedoshere_dataset_with_plants.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/dataset/pedoshere_dataset_with_plants_sorted.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/dataset/updated.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/model_DecisionTreeClassifier.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/model_DecisionTreeClassifier_2.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/model_RandomForestClassifier.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/pedosphere_model.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/pedosphere_model_2.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2nd_try/updateddata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/datasets/cleaned_output_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../hydrosphere_model/datasets/cleaned_output_data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/columns.json" beforeDir="false" afterPath="$PROJECT_DIR$/model/columns.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/hydrosphere_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/model/hydrosphere_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/model_RandomForestClassifier.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/artifacts/columns.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/artifacts/columns.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/artifacts/hydrosphere_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/server/artifacts/hydrosphere_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/util.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2mTEH0Q02QIhlagHBUrEoumdb96" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.server.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/Masrafe/Coding/Git_Hub_code/ml_project/GURDIANS_OF_THE_GALAXY/HYDROSPHERE/hydrosphere_server"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0474f63f-199e-4e06-a62f-94b5ee3a05ea" name="Changes" comment="" />
+      <created>1727092073742</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727092073742</updated>
+    </task>
+    <servers />
+  </component>
+</project>

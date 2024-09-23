@@ -1,26 +1,18 @@
-function onClickedPredictPlantType() {
+function onClickedPredictLandType() {
     console.log("Predict plant type button clicked");
-
-    var dissolvedOxygen = document.getElementById("uiDissolvedOxygen");
-    var waterTemp = document.getElementById("uiTemperature");
+    var dissolved_oxygen = document.getElementById("uiDissolvedOxygen");
     var waterPH = document.getElementById("uiPH");
-    var predictedPlantType = document.getElementById("uiPredictedPlantType");
+    var predictedLandType = document.getElementById("uiPredictedPlantType");
 
-    var url = "http://127.0.0.1:5000/predict_plant_type"; // Flask server URL
+    var url = "http://127.0.0.1:5000/predict_land_type"; // Ensure Flask server is running
 
     $.post(url, {
-        Dissolved_Oxygen: parseFloat(dissolvedOxygen.value),
-        Temperature: parseFloat(waterTemp.value),
-        pH: parseFloat(waterPH.value)
-    })
-    .done(function(data) {
-        predictedPlantType.innerHTML = "<h2>Predicted Plant Type: " + data.predicted_plant_type + "</h2>";
-        console.log("Prediction successful:", data);
-    })
-    .fail(function(jqXHR) {
-        var errorMsg = jqXHR.responseJSON ? jqXHR.responseJSON.error : "An error occurred";
-        predictedPlantType.innerHTML = "<h2>Error: " + errorMsg + "</h2>";
-        console.log("Prediction failed:", errorMsg);
+        dissolved_oxygen: parseFloat(dissolved_oxygen.value),  // Send correct variable names
+        waterPH: parseFloat(waterPH.value)  // Send correct variable names
+    },function(data, status) {
+        console.log(data.predicted_land_type);
+        predictedLandType.innerHTML = "<h2>" + data.predicted_land_type + "</h2>";  // Updated for 'land type'
+        console.log(status);
     });
 }
 

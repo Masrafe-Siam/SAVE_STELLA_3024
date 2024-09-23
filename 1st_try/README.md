@@ -1,1 +1,0 @@
-# GURDIANS_OF_THE_GALAXY_Ml_Model

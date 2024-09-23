@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Type Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <div class="img"></div>
+    <div class="form">
+        <h2>Dissolved Oxygen (mg/L)</h2>
+        <input type="text" id="uiDissolvedOxygen" class="oxygen" name="DissolvedOxygen" value="8.0">
+        
+        <h2>Water Temperature (°C)</h2>
+        <input type="text" id="uiTemperature" class="temperature" name="Temperature" value="20">
+        
+        <h2>Water pH</h2>
+        <input type="text" id="uiPH" class="ph" name="pH" value="7.0">
+        
+        <button class="submit" onclick="onClickedPredictPlantType()" type="button">Predict Plant Type</button>
+    </div>
+
+    <div id="uiPredictedPlantType" class="result">
+        <h2></h2>
+    </div>
+</body>
+</html>

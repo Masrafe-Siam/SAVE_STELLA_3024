@@ -1,34 +1,33 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS  # Import CORS
 import util
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for all routes
 
 @app.route('/get_column_names', methods=['GET'])
 def get_column_names():
     response = jsonify({
         'columns': util.get_data_columns()
     })
+    response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
-@app.route('/predict_plant_type', methods=['POST'])
-def predict_plant_type():
+@app.route('/predict_land_type', methods=['POST'])
+def predict_land_type():
     try:
-        Dissolved_Oxygen = float(request.form['Dissolved_Oxygen'])
-        Temperature = float(request.form['Temperature'])
-        pH = float(request.form['pH'])
+        Dissolved_Oxygen = float(request.form['dissolved_oxygen'])  # Match the name used in app.js
+        pH = float(request.form['waterPH'])  # Match the name used in app.js
 
-        predicted_plant_type = util.get_predicted_plant_type(Dissolved_Oxygen, Temperature, pH)
+        predicted_land_type = util.get_predicted_plant_type(Dissolved_Oxygen, pH)
 
         response = jsonify({
-            'predicted_plant_type': predicted_plant_type
+            'predicted_land_type': str(predicted_land_type)  # Convert to string if necessary
         })
+        response.headers.add('Access-Control-Allow-Origin', '*')
         return response
     except Exception as e:
-        return jsonify({'error': str(e)}), 400
+        return jsonify({'error': str(e)}), 500  # Return error as JSON
 
 if __name__ == "__main__":
     print("Starting Python Flask Server for Plant Type Prediction...")
     util.load_saved_artifacts()
-    app.run(debug=True)  # Set debug=True for easier troubleshooting
+    app.run()
