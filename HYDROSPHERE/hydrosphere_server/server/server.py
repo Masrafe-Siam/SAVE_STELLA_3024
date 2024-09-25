@@ -11,16 +11,16 @@ def get_column_names():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
-@app.route('/predict_land_type', methods=['POST'])
-def predict_land_type():
+@app.route('/predict_aquatic_environment', methods=['POST'])  # Updated route for aquatic environment
+def predict_aquatic_environment():
     try:
         Dissolved_Oxygen = float(request.form['dissolved_oxygen'])  # Match the name used in app.js
-        pH = float(request.form['waterPH'])  # Match the name used in app.js
+        salinities = float(request.form['salinities'])  # Match the name used in app.js
 
-        predicted_land_type = util.get_predicted_plant_type(Dissolved_Oxygen, pH)
+        predicted_environment = util.get_predicted_aquatic_environment(Dissolved_Oxygen, salinities)
 
         response = jsonify({
-            'predicted_land_type': str(predicted_land_type)  # Convert to string if necessary
+            'predicted_environment': str(predicted_environment)  # Convert to string if necessary
         })
         response.headers.add('Access-Control-Allow-Origin', '*')
         return response
@@ -28,6 +28,6 @@ def predict_land_type():
         return jsonify({'error': str(e)}), 500  # Return error as JSON
 
 if __name__ == "__main__":
-    print("Starting Python Flask Server for Plant Type Prediction...")
+    print("Starting Python Flask Server for Aquatic Environment Prediction...")
     util.load_saved_artifacts()
     app.run()

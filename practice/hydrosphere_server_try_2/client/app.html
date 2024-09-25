@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aquatic_Environment Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+    <h2>Dissolved Oxygen</h2>
+    <input class="dissolved_oxygen" type="text" id="uiDissolvedOxygen" class="floatLabel" name="DissolvedOxygen" value="8">
+    
+    <h2>sanity</h2>
+    <input class="sanity" type="text" id="uiSANITY" class="floatLabel" name="SANITY" value="20">
+</form>
+
+<form class="form">
+    <button class="submit" onclick="onClickedPredictLandType()" type="button">Predict Aquatic Environment</button>
+    <div id="uiPredictedPlantType" class="result">
+        <h2></h2>
+    </div>
+</form>
+</body>
+</html>

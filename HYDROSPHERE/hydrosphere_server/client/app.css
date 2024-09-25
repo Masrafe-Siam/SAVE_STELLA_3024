@@ -43,7 +43,7 @@ h2 {
     margin-bottom: 8px;
 }
 
-.dissolved_oxygen, .ph {
+.dissolved_oxygen, .salinities {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;

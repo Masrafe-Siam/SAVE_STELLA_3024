@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Plant Type Prediction</title>
+    <title>Aquatic Environment Prediction</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="app.js"></script>
     <link rel="stylesheet" href="app.css">
@@ -12,13 +12,13 @@
     <h2>Dissolved Oxygen</h2>
     <input class="dissolved_oxygen" type="text" id="uiDissolvedOxygen" class="floatLabel" name="DissolvedOxygen" value="8">
     
-    <h2>pH</h2>
-    <input class="ph" type="text" id="uiPH" class="floatLabel" name="PH" value="6.5">
+    <h2>Salinities</h2>  <!-- Changed to Salinities -->
+    <input class="salinities" type="text" id="uiSalinities" class="floatLabel" name="Salinities" value="20">  <!-- Changed to match salinities -->
 </form>
 
 <form class="form">
-    <button class="submit" onclick="onClickedPredictLandType()" type="button">Predict Land Type</button>
-    <div id="uiPredictedPlantType" class="result">
+    <button class="submit" onclick="onClickedPredictAquaticEnvironment()" type="button">Predict Aquatic Environment</button> <!-- Updated button text -->
+    <div id="uiPredictedAquaticEnvironment" class="result">
         <h2></h2>
     </div>
 </form>
