@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plant Type Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+    <h2>Air Temperature (°C)</h2>
+    <input class="temperature" type="text" id="uiairTemperature" class="floatLabel" name="AirTemperature" value="30">
+    
+    <h2>Humidity</h2>
+    <input class="humidity" type="text" id="uihumidity" class="floatLabel" name="Humidity" value="40">
+</form>
+
+<form class="form">
+    <button class="submit" onclick="onClickedPredictLandType()" type="button">Predict Land Type</button>
+    <div id="uiPredictedLandType" class="result">
+        <h2></h2>
+    </div>
+</form>
+</body>
+</html>
