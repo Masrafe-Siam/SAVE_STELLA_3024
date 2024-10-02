@@ -5,54 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8812ba71-3283-409f-8c39-52a114f28abf" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../ATMOSPHERE/atmosphere_model/dataset/air_data_add_2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../ATMOSPHERE/atmosphere_model/dataset/air_data_add_2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/cleaning.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hydrosphere_model/cleaning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/columns.json" beforeDir="false" afterPath="$PROJECT_DIR$/../hydrosphere_model/columns.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/datasets/GLOBEMeasurementData-21547.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/datasets/cleaned_output_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/datasets/hydro_data_add_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/datasets/hydro_data_add_3.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/datasets/hydro_data_add_4.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/datasets/hydro_data_clean_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/datasets/hydro_data_clean_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/datasets/hydrosphere_dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/datasets/output_data_with_plants.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/datasets/output_data_with_plants_2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/datasets/sampled_data_Model_2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../hydrosphere_model/datasets/sampled_data_Model_2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/hydrosphere_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/../hydrosphere_model/hydrosphere_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ATMOSPHERE/atmosphere_model/atmosphere_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/../../ATMOSPHERE/atmosphere_model/atmosphere_model.pickle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ATMOSPHERE/atmosphere_model/model_RandomForestClassifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ATMOSPHERE/atmosphere_model/model_RandomForestClassifier.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ATMOSPHERE/atmosphere_server/.idea/atmosphere_server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ATMOSPHERE/atmosphere_server/.idea/atmosphere_server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ATMOSPHERE/atmosphere_server/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ATMOSPHERE/atmosphere_server/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hydrosphere_model/model_RandomForestClassifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../hydrosphere_model/model_RandomForestClassifier.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/newdata.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../hydrosphere_model/newdata.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hydrosphere_model/newdataadd.py" beforeDir="false" afterPath="$PROJECT_DIR$/../hydrosphere_model/newdataadd.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hydrosphere_server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hydrosphere_server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/columns.json" beforeDir="false" afterPath="$PROJECT_DIR$/model/columns.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/hydrosphere_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/model/hydrosphere_model.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/label_encoder.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/model/label_encoder.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/model.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/artifacts/columns.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/artifacts/columns.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/artifacts/hydrosphere_model.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/server/artifacts/hydrosphere_model.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/artifacts/label_encoder.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/server/artifacts/label_encoder.pickle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/server.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/server.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/.idea/hydrosphere_server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/client/app.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/client/app.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/client/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/model/columns.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/model/hydrosphere_model.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/model/model_RandomForestClassifier.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/server/artifacts/columns.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/server/artifacts/hydrosphere_model.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/server/server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../practice/hydrosphere_server/server/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PEDOSPHERE/pedosphere_ml_model/model_RandomForestClassifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../PEDOSPHERE/pedosphere_ml_model/model_RandomForestClassifier.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,23 +30,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2mWfJZgxGhRdkmlgmfaQrBmI98K" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.server.executor": "Run",
-    "Python.util.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/Masrafe/Coding/Git_Hub_code/ml_project/GURDIANS_OF_THE_GALAXY/HYDROSPHERE/hydrosphere_server"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.util.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Masrafe/Coding/Git_Hub_code/ml_project/GURDIANS_OF_THE_GALAXY/HYDROSPHERE/hydrosphere_server&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
